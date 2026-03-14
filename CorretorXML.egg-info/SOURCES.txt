@@ -1,0 +1,5 @@
+setup.py
+CorretorXML.egg-info/PKG-INFO
+CorretorXML.egg-info/SOURCES.txt
+CorretorXML.egg-info/dependency_links.txt
+CorretorXML.egg-info/top_level.txt
