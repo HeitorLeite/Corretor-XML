@@ -1,7 +1,7 @@
 # Corretor-XML
 Corretor de Procedimentos TISS XML que detecta procedimentos com prefixo incorreto (19 ou 20) quando codigoTabela = 00 e corrige automaticamente.
 <br>
-Esse programa foi feito para ajudar na execução de uma tarefa que antes era feita manualmente de tirar os erros de um arquivo XML.
+Esse programa foi feito para ajudar na execução de uma tarefa que antes era feita manualmente de tirar os erros de um arquivo XML na Unimed Lorena.
 <br>
 <br>
 O código lê um arquivo .xml e identifica os campos de código de tabela e código de procedimento, se o código da tabela for 00 ele verifica a linha abaixo para ver se o erro existe, o erro é caso o código do procedimento venha com um 19 ou 20 no começo do código que não deveria vir, caso o erro exista o programa tira esse prefixo e corrige o arquivo.
